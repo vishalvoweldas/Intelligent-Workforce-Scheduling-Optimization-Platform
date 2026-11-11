@@ -3,7 +3,7 @@ export type Role = 'EMPLOYEE' | 'MANAGER' | 'HR_PARTNER' | 'OPERATIONS' | 'ADMIN
 export interface DemoUser {
   employee_id: string;
   name: string;
-  email: string;
+  email?: string;
   role: Role;
   team_id: string;
 }

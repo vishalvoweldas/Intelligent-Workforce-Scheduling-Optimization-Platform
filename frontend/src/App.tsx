@@ -202,15 +202,15 @@ export function App() {
 
     let defaultUser: DemoUser | undefined;
     if (newRole === 'EMPLOYEE') {
-      defaultUser = demoUsers.employees?.[0] || { employee_id: 'EMP-000001', name: 'Cameron Lee', role: 'EMPLOYEE', team_id: 'TEAM-001' };
+      defaultUser = demoUsers.employees?.[0] || { employee_id: 'EMP-000001', name: 'Cameron Lee', email: 'cameron.lee@workforce.ai', role: 'EMPLOYEE', team_id: 'TEAM-001' };
     } else if (newRole === 'MANAGER') {
-      defaultUser = demoUsers.managers?.[0] || { employee_id: 'EMP-000001', name: 'Cameron Lee', role: 'MANAGER', team_id: 'TEAM-001' };
+      defaultUser = demoUsers.managers?.[0] || { employee_id: 'EMP-000001', name: 'Cameron Lee', email: 'cameron.lee@workforce.ai', role: 'MANAGER', team_id: 'TEAM-001' };
     } else if (newRole === 'HR_PARTNER') {
-      defaultUser = demoUsers.hr_partners?.[0] || (demoUsers as any).hr_partner || { employee_id: 'EMP-000011', name: 'Chris Smith', role: 'HR_PARTNER', team_id: 'TEAM-001' };
+      defaultUser = demoUsers.hr_partners?.[0] || (demoUsers as any).hr_partner || { employee_id: 'EMP-000011', name: 'Chris Smith', email: 'chris.smith@workforce.ai', role: 'HR_PARTNER', team_id: 'TEAM-001' };
     } else if (newRole === 'OPERATIONS') {
-      defaultUser = demoUsers.operations?.[0] || (demoUsers as any).operations_lead || (typeof demoUsers.operations === 'object' && !Array.isArray(demoUsers.operations) ? demoUsers.operations : null) || { employee_id: 'EMP-000012', name: 'Elliot Wilson', role: 'OPERATIONS', team_id: 'TEAM-002' };
+      defaultUser = demoUsers.operations?.[0] || (demoUsers as any).operations_lead || (typeof demoUsers.operations === 'object' && !Array.isArray(demoUsers.operations) ? demoUsers.operations : null) || { employee_id: 'EMP-000012', name: 'Elliot Wilson', email: 'elliot.wilson@workforce.ai', role: 'OPERATIONS', team_id: 'TEAM-002' };
     } else if (newRole === 'ADMIN') {
-      defaultUser = demoUsers.admins?.[0] || (demoUsers as any).admin || { employee_id: 'EMP-000013', name: 'Casey Clark', role: 'ADMIN', team_id: 'TEAM-003' };
+      defaultUser = demoUsers.admins?.[0] || (demoUsers as any).admin || { employee_id: 'EMP-000013', name: 'Casey Clark', email: 'casey.clark@workforce.ai', role: 'ADMIN', team_id: 'TEAM-003' };
     }
 
     if (defaultUser) {
@@ -765,7 +765,7 @@ export function App() {
             </div>
 
             <button
-              onClick={loadAllData}
+              onClick={() => loadAllData()}
               disabled={loading}
               className="p-1.5 text-slate-600 hover:text-slate-900 rounded-lg hover:bg-slate-100 transition border border-slate-200 shrink-0"
               title="Refresh all data"
@@ -1312,7 +1312,7 @@ export function App() {
                     </div>
                     <div className="flex items-center gap-3">
                       <button
-                        onClick={loadAllData}
+                        onClick={() => loadAllData()}
                         disabled={loading}
                         className="px-4 py-2 bg-slate-900 hover:bg-slate-800 text-white rounded-lg text-xs font-bold transition flex items-center gap-2"
                       >
