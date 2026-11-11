@@ -1,0 +1,6 @@
+anomaly_id,issue_type,entity_type,record_id,expected_detection,expected_business_decision,severity,injection_method
+ANOM-000001,DOUBLE_BOOKING,SHIFT_ASSIGNMENT,ASGN-ANOM-0002,Employee double-booked across overlapping shifts,Cancel second assignment and flag supervisor,CRITICAL,Injected concurrent shift assignment for employee
+ANOM-000002,LEAVE_CONFLICT,SHIFT_ASSIGNMENT,ASGN-ANOM-0003,Shift scheduled during approved leave window,Revoke assignment and assign relief worker,HIGH,Assigned shift on approved leave calendar date
+ANOM-000003,MISSING_SKILL,SHIFT_ASSIGNMENT,ASGN-ANOM-0004,Assigned employee lacks required certification,Reassign to certified personnel immediately,CRITICAL,Assigned employee to role without prerequisite skill certification
+ANOM-000004,OVERTIME_EXCEEDED,EMPLOYEE,EMP-000003,Employee scheduled beyond maximum weekly overtime cap,Unschedule excess shifts to comply with labor regulations,HIGH,Assigned 4 additional shifts pushing weekly hours to 56h (> 25h cap)
+ANOM-000005,UNAPPROVED_SWAP,SWAP_REQUEST,SWP-2026-000999,Shift swap applied without required manager approval,Revert swap execution and notify compliance,HIGH,Applied swap directly bypassing manager authorization

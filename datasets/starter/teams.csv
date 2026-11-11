@@ -1,0 +1,11 @@
+team_id,team_name,department,location,manager_id,is_active,created_at
+TEAM-001,Operations Team 01,Operations,Chicago Hub,EMP-000001,True,2026-01-01T00:00:00
+TEAM-002,Clinical Team 02,Clinical,Austin Facility,EMP-000002,True,2026-01-01T00:00:00
+TEAM-003,Logistics Team 03,Logistics,Seattle Depot,EMP-000003,True,2026-01-01T00:00:00
+TEAM-004,Manufacturing Team 04,Manufacturing,Denver Center,EMP-000004,True,2026-01-01T00:00:00
+TEAM-005,Customer Care Team 05,Customer Care,Atlanta Station,EMP-000005,True,2026-01-01T00:00:00
+TEAM-006,Field Ops Team 06,Field Ops,Chicago Hub,EMP-000006,True,2026-01-01T00:00:00
+TEAM-007,Operations Team 07,Operations,Austin Facility,EMP-000007,True,2026-01-01T00:00:00
+TEAM-008,Clinical Team 08,Clinical,Seattle Depot,EMP-000008,True,2026-01-01T00:00:00
+TEAM-009,Logistics Team 09,Logistics,Denver Center,EMP-000009,True,2026-01-01T00:00:00
+TEAM-010,Manufacturing Team 10,Manufacturing,Atlanta Station,EMP-000010,True,2026-01-01T00:00:00

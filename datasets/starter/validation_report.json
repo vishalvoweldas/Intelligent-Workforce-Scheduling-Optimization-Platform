@@ -1,0 +1,11 @@
+{
+  "is_valid": true,
+  "errors": [],
+  "warnings": [],
+  "summary": {
+    "tables_checked": 13,
+    "total_records": 1611,
+    "checks_passed": 14,
+    "checks_failed": 0
+  }
+}

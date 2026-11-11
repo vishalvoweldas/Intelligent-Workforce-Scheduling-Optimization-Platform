@@ -1,0 +1,9 @@
+skill_id,skill_name,category,description,is_active
+SKL-001,Critical Clinical Care,CLINICAL,Emergency trauma & critical care administration,True
+SKL-002,Heavy Equipment Operation,MACHINERY,"Forklift, crane & specialized heavy gear",True
+SKL-003,Safety & Environmental Compliance,SAFETY,OSHA & workplace hazard protocols,True
+SKL-004,Quality Assurance & Inspection,QUALITY,Product precision inspection and standards audit,True
+SKL-005,Logistics & Dispatch Coordination,LOGISTICS,Fleet routing and warehouse dispatch,True
+SKL-006,Customer Resolution Support,SUPPORT,Complex incident escalation and customer handling,True
+SKL-007,Systems & Infrastructure Reliability,IT_OPS,Mission-critical systems & telemetry monitoring,True
+SKL-008,Hazardous Materials Protocol,SAFETY,"Hazmat containment, storage & transport",True

@@ -1,0 +1,101 @@
+team_id,team_name,department,location,manager_id,is_active,created_at
+TEAM-001,Operations Team 01,Operations,Chicago Hub,EMP-000001,True,2026-01-01T00:00:00
+TEAM-002,Clinical Team 02,Clinical,Austin Facility,EMP-000002,True,2026-01-01T00:00:00
+TEAM-003,Logistics Team 03,Logistics,Seattle Depot,EMP-000003,True,2026-01-01T00:00:00
+TEAM-004,Manufacturing Team 04,Manufacturing,Denver Center,EMP-000004,True,2026-01-01T00:00:00
+TEAM-005,Customer Care Team 05,Customer Care,Atlanta Station,EMP-000005,True,2026-01-01T00:00:00
+TEAM-006,Field Ops Team 06,Field Ops,Chicago Hub,EMP-000006,True,2026-01-01T00:00:00
+TEAM-007,Operations Team 07,Operations,Austin Facility,EMP-000007,True,2026-01-01T00:00:00
+TEAM-008,Clinical Team 08,Clinical,Seattle Depot,EMP-000008,True,2026-01-01T00:00:00
+TEAM-009,Logistics Team 09,Logistics,Denver Center,EMP-000009,True,2026-01-01T00:00:00
+TEAM-010,Manufacturing Team 10,Manufacturing,Atlanta Station,EMP-000010,True,2026-01-01T00:00:00
+TEAM-011,Customer Care Team 11,Customer Care,Chicago Hub,EMP-000011,True,2026-01-01T00:00:00
+TEAM-012,Field Ops Team 12,Field Ops,Austin Facility,EMP-000012,True,2026-01-01T00:00:00
+TEAM-013,Operations Team 13,Operations,Seattle Depot,EMP-000013,True,2026-01-01T00:00:00
+TEAM-014,Clinical Team 14,Clinical,Denver Center,EMP-000014,True,2026-01-01T00:00:00
+TEAM-015,Logistics Team 15,Logistics,Atlanta Station,EMP-000015,True,2026-01-01T00:00:00
+TEAM-016,Manufacturing Team 16,Manufacturing,Chicago Hub,EMP-000016,True,2026-01-01T00:00:00
+TEAM-017,Customer Care Team 17,Customer Care,Austin Facility,EMP-000017,True,2026-01-01T00:00:00
+TEAM-018,Field Ops Team 18,Field Ops,Seattle Depot,EMP-000018,True,2026-01-01T00:00:00
+TEAM-019,Operations Team 19,Operations,Denver Center,EMP-000019,True,2026-01-01T00:00:00
+TEAM-020,Clinical Team 20,Clinical,Atlanta Station,EMP-000020,True,2026-01-01T00:00:00
+TEAM-021,Logistics Team 21,Logistics,Chicago Hub,EMP-000021,True,2026-01-01T00:00:00
+TEAM-022,Manufacturing Team 22,Manufacturing,Austin Facility,EMP-000022,True,2026-01-01T00:00:00
+TEAM-023,Customer Care Team 23,Customer Care,Seattle Depot,EMP-000023,True,2026-01-01T00:00:00
+TEAM-024,Field Ops Team 24,Field Ops,Denver Center,EMP-000024,True,2026-01-01T00:00:00
+TEAM-025,Operations Team 25,Operations,Atlanta Station,EMP-000025,True,2026-01-01T00:00:00
+TEAM-026,Clinical Team 26,Clinical,Chicago Hub,EMP-000026,True,2026-01-01T00:00:00
+TEAM-027,Logistics Team 27,Logistics,Austin Facility,EMP-000027,True,2026-01-01T00:00:00
+TEAM-028,Manufacturing Team 28,Manufacturing,Seattle Depot,EMP-000028,True,2026-01-01T00:00:00
+TEAM-029,Customer Care Team 29,Customer Care,Denver Center,EMP-000029,True,2026-01-01T00:00:00
+TEAM-030,Field Ops Team 30,Field Ops,Atlanta Station,EMP-000030,True,2026-01-01T00:00:00
+TEAM-031,Operations Team 31,Operations,Chicago Hub,EMP-000031,True,2026-01-01T00:00:00
+TEAM-032,Clinical Team 32,Clinical,Austin Facility,EMP-000032,True,2026-01-01T00:00:00
+TEAM-033,Logistics Team 33,Logistics,Seattle Depot,EMP-000033,True,2026-01-01T00:00:00
+TEAM-034,Manufacturing Team 34,Manufacturing,Denver Center,EMP-000034,True,2026-01-01T00:00:00
+TEAM-035,Customer Care Team 35,Customer Care,Atlanta Station,EMP-000035,True,2026-01-01T00:00:00
+TEAM-036,Field Ops Team 36,Field Ops,Chicago Hub,EMP-000036,True,2026-01-01T00:00:00
+TEAM-037,Operations Team 37,Operations,Austin Facility,EMP-000037,True,2026-01-01T00:00:00
+TEAM-038,Clinical Team 38,Clinical,Seattle Depot,EMP-000038,True,2026-01-01T00:00:00
+TEAM-039,Logistics Team 39,Logistics,Denver Center,EMP-000039,True,2026-01-01T00:00:00
+TEAM-040,Manufacturing Team 40,Manufacturing,Atlanta Station,EMP-000040,True,2026-01-01T00:00:00
+TEAM-041,Customer Care Team 41,Customer Care,Chicago Hub,EMP-000041,True,2026-01-01T00:00:00
+TEAM-042,Field Ops Team 42,Field Ops,Austin Facility,EMP-000042,True,2026-01-01T00:00:00
+TEAM-043,Operations Team 43,Operations,Seattle Depot,EMP-000043,True,2026-01-01T00:00:00
+TEAM-044,Clinical Team 44,Clinical,Denver Center,EMP-000044,True,2026-01-01T00:00:00
+TEAM-045,Logistics Team 45,Logistics,Atlanta Station,EMP-000045,True,2026-01-01T00:00:00
+TEAM-046,Manufacturing Team 46,Manufacturing,Chicago Hub,EMP-000046,True,2026-01-01T00:00:00
+TEAM-047,Customer Care Team 47,Customer Care,Austin Facility,EMP-000047,True,2026-01-01T00:00:00
+TEAM-048,Field Ops Team 48,Field Ops,Seattle Depot,EMP-000048,True,2026-01-01T00:00:00
+TEAM-049,Operations Team 49,Operations,Denver Center,EMP-000049,True,2026-01-01T00:00:00
+TEAM-050,Clinical Team 50,Clinical,Atlanta Station,EMP-000050,True,2026-01-01T00:00:00
+TEAM-051,Logistics Team 51,Logistics,Chicago Hub,EMP-000051,True,2026-01-01T00:00:00
+TEAM-052,Manufacturing Team 52,Manufacturing,Austin Facility,EMP-000052,True,2026-01-01T00:00:00
+TEAM-053,Customer Care Team 53,Customer Care,Seattle Depot,EMP-000053,True,2026-01-01T00:00:00
+TEAM-054,Field Ops Team 54,Field Ops,Denver Center,EMP-000054,True,2026-01-01T00:00:00
+TEAM-055,Operations Team 55,Operations,Atlanta Station,EMP-000055,True,2026-01-01T00:00:00
+TEAM-056,Clinical Team 56,Clinical,Chicago Hub,EMP-000056,True,2026-01-01T00:00:00
+TEAM-057,Logistics Team 57,Logistics,Austin Facility,EMP-000057,True,2026-01-01T00:00:00
+TEAM-058,Manufacturing Team 58,Manufacturing,Seattle Depot,EMP-000058,True,2026-01-01T00:00:00
+TEAM-059,Customer Care Team 59,Customer Care,Denver Center,EMP-000059,True,2026-01-01T00:00:00
+TEAM-060,Field Ops Team 60,Field Ops,Atlanta Station,EMP-000060,True,2026-01-01T00:00:00
+TEAM-061,Operations Team 61,Operations,Chicago Hub,EMP-000061,True,2026-01-01T00:00:00
+TEAM-062,Clinical Team 62,Clinical,Austin Facility,EMP-000062,True,2026-01-01T00:00:00
+TEAM-063,Logistics Team 63,Logistics,Seattle Depot,EMP-000063,True,2026-01-01T00:00:00
+TEAM-064,Manufacturing Team 64,Manufacturing,Denver Center,EMP-000064,True,2026-01-01T00:00:00
+TEAM-065,Customer Care Team 65,Customer Care,Atlanta Station,EMP-000065,True,2026-01-01T00:00:00
+TEAM-066,Field Ops Team 66,Field Ops,Chicago Hub,EMP-000066,True,2026-01-01T00:00:00
+TEAM-067,Operations Team 67,Operations,Austin Facility,EMP-000067,True,2026-01-01T00:00:00
+TEAM-068,Clinical Team 68,Clinical,Seattle Depot,EMP-000068,True,2026-01-01T00:00:00
+TEAM-069,Logistics Team 69,Logistics,Denver Center,EMP-000069,True,2026-01-01T00:00:00
+TEAM-070,Manufacturing Team 70,Manufacturing,Atlanta Station,EMP-000070,True,2026-01-01T00:00:00
+TEAM-071,Customer Care Team 71,Customer Care,Chicago Hub,EMP-000071,True,2026-01-01T00:00:00
+TEAM-072,Field Ops Team 72,Field Ops,Austin Facility,EMP-000072,True,2026-01-01T00:00:00
+TEAM-073,Operations Team 73,Operations,Seattle Depot,EMP-000073,True,2026-01-01T00:00:00
+TEAM-074,Clinical Team 74,Clinical,Denver Center,EMP-000074,True,2026-01-01T00:00:00
+TEAM-075,Logistics Team 75,Logistics,Atlanta Station,EMP-000075,True,2026-01-01T00:00:00
+TEAM-076,Manufacturing Team 76,Manufacturing,Chicago Hub,EMP-000076,True,2026-01-01T00:00:00
+TEAM-077,Customer Care Team 77,Customer Care,Austin Facility,EMP-000077,True,2026-01-01T00:00:00
+TEAM-078,Field Ops Team 78,Field Ops,Seattle Depot,EMP-000078,True,2026-01-01T00:00:00
+TEAM-079,Operations Team 79,Operations,Denver Center,EMP-000079,True,2026-01-01T00:00:00
+TEAM-080,Clinical Team 80,Clinical,Atlanta Station,EMP-000080,True,2026-01-01T00:00:00
+TEAM-081,Logistics Team 81,Logistics,Chicago Hub,EMP-000081,True,2026-01-01T00:00:00
+TEAM-082,Manufacturing Team 82,Manufacturing,Austin Facility,EMP-000082,True,2026-01-01T00:00:00
+TEAM-083,Customer Care Team 83,Customer Care,Seattle Depot,EMP-000083,True,2026-01-01T00:00:00
+TEAM-084,Field Ops Team 84,Field Ops,Denver Center,EMP-000084,True,2026-01-01T00:00:00
+TEAM-085,Operations Team 85,Operations,Atlanta Station,EMP-000085,True,2026-01-01T00:00:00
+TEAM-086,Clinical Team 86,Clinical,Chicago Hub,EMP-000086,True,2026-01-01T00:00:00
+TEAM-087,Logistics Team 87,Logistics,Austin Facility,EMP-000087,True,2026-01-01T00:00:00
+TEAM-088,Manufacturing Team 88,Manufacturing,Seattle Depot,EMP-000088,True,2026-01-01T00:00:00
+TEAM-089,Customer Care Team 89,Customer Care,Denver Center,EMP-000089,True,2026-01-01T00:00:00
+TEAM-090,Field Ops Team 90,Field Ops,Atlanta Station,EMP-000090,True,2026-01-01T00:00:00
+TEAM-091,Operations Team 91,Operations,Chicago Hub,EMP-000091,True,2026-01-01T00:00:00
+TEAM-092,Clinical Team 92,Clinical,Austin Facility,EMP-000092,True,2026-01-01T00:00:00
+TEAM-093,Logistics Team 93,Logistics,Seattle Depot,EMP-000093,True,2026-01-01T00:00:00
+TEAM-094,Manufacturing Team 94,Manufacturing,Denver Center,EMP-000094,True,2026-01-01T00:00:00
+TEAM-095,Customer Care Team 95,Customer Care,Atlanta Station,EMP-000095,True,2026-01-01T00:00:00
+TEAM-096,Field Ops Team 96,Field Ops,Chicago Hub,EMP-000096,True,2026-01-01T00:00:00
+TEAM-097,Operations Team 97,Operations,Austin Facility,EMP-000097,True,2026-01-01T00:00:00
+TEAM-098,Clinical Team 98,Clinical,Seattle Depot,EMP-000098,True,2026-01-01T00:00:00
+TEAM-099,Logistics Team 99,Logistics,Denver Center,EMP-000099,True,2026-01-01T00:00:00
+TEAM-100,Manufacturing Team 100,Manufacturing,Atlanta Station,EMP-000100,True,2026-01-01T00:00:00

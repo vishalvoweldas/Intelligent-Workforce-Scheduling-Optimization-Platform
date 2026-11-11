@@ -1,0 +1,42 @@
+{
+  "profile": "FULL",
+  "seed": 20261022,
+  "record_counts": {
+    "teams": 100,
+    "skills": 8,
+    "shift_templates": 3,
+    "employees": 2000,
+    "employee_skills": 3297,
+    "coverage_requirements": 300,
+    "holiday_calendar": 3,
+    "shifts": 27000,
+    "leave_requests": 5000,
+    "shift_assignments": 27007,
+    "attendance_events": 53473,
+    "swap_requests": 10,
+    "derived_metrics": 2000
+  },
+  "file_checksums_sha256": {
+    "teams.csv": "a3a861a8e9289c7ea8172a0c60491f84cd96978b70e7557e13183885479e5870",
+    "skills.csv": "ee04e4aaaf7bf48adfd52b63f76e44dfbc3ffdbad3131e2805b58959c4e71fdc",
+    "shift_templates.csv": "695d37249d8788a894b15c670fe1859c0b1e9151e51f2adf9d1710c9e6afad60",
+    "employees.csv": "43a77042339880d42482e0dfd710e8ea0efd5aa045c709273fe5be2f6d785da8",
+    "employee_skills.csv": "89ba4c44706c7bb9a506b505b0b143f1b73cabb42a5b01aba5a1d43c14239a1e",
+    "coverage_requirements.csv": "0672d3352f9c56e819fa03cc6784d5775f33c8e5b2e54f7175491bb021a53df4",
+    "holiday_calendar.csv": "fdb08a734e07eec097bafa96ffe008999935a699177a4b38264636687e94e390",
+    "shifts.csv": "d473daa17fd25e728ceb0bd0131096c22ca0213824c7003911a8491351c69164",
+    "leave_requests.csv": "f8abce6afb84b1ac722976a92364d26841f3a7ffda7c3ef63cff84f075cc64e3",
+    "shift_assignments.csv": "3e335130362a948451d510b22145a4b56b758aed87d78d077c24542573a69015",
+    "attendance_events.csv": "ab762a53371ede5e1eb10d189352c73d6a6c3260ebc76ec34f465ccf66db6bef",
+    "swap_requests.csv": "f00a05f343511980e1a87c2550f3d522dcf077c62a0e3b026682acdf6fcee265",
+    "derived_metrics.csv": "1ec2322e4d0931a7dbc17bd9ba4bfe26a151463eb237d781124bbf4d966cbf95",
+    "anomaly_records.csv": "d04b436f0447d92017fd951c995dad1d21ecc208d43b1b33feea44f44c7c0097",
+    "ground_truth.csv": "af5b0e873e249283c3131b1d7b7a6f665f644f4fe9551d7eff0af6bb024e09d6",
+    "ground_truth.json": "3f714df1e65a13f59ddb1e2f24ab0be6e5a84757628c618c767577a6716d18ee",
+    "dataset.json": "436c8e3e1c1630db32cf3b985881b8491c478b79470be3f346a237c0b2f44da1",
+    "seed_data.sql": "6cd9e1c43c468f27c96b5bd9746261f936cdf500d0e6a03a85faf08fd0b5ae02",
+    "validation_report.json": "a401c3448cdd2b0b344e740c615a7dd5dda68e6ba9cd7a35145d6f3b4b648da3"
+  },
+  "validation_status": "PASSED",
+  "generator_command": "python scripts/generate_datasets.py --profile FULL --seed 20261022"
+}

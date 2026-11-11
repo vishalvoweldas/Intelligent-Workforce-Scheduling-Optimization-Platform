@@ -1,0 +1,4 @@
+holiday_id,holiday_name,holiday_date,applicable_location,applicable_team_id,holiday_category
+HOL-001,New Year's Day,2026-01-01,GLOBAL,,PUBLIC
+HOL-002,Martin Luther King Jr. Day,2026-01-19,GLOBAL,,PUBLIC
+HOL-003,Presidents' Day,2026-02-16,GLOBAL,,PUBLIC

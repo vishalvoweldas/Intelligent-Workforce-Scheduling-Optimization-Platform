@@ -1,0 +1,62 @@
+[
+  {
+    "anomaly_id": "ANOM-000001",
+    "issue_type": "DOUBLE_BOOKING",
+    "entity_type": "SHIFT_ASSIGNMENT",
+    "record_id": "ASGN-ANOM-0002",
+    "expected_detection": "Employee double-booked across overlapping shifts",
+    "expected_business_decision": "Cancel second assignment and flag supervisor",
+    "severity": "CRITICAL",
+    "injection_method": "Injected concurrent shift assignment for employee",
+    "ground_truth_label": "ANOMALY_DOUBLE_BOOKING",
+    "is_anomaly": true
+  },
+  {
+    "anomaly_id": "ANOM-000002",
+    "issue_type": "LEAVE_CONFLICT",
+    "entity_type": "SHIFT_ASSIGNMENT",
+    "record_id": "ASGN-ANOM-0003",
+    "expected_detection": "Shift scheduled during approved leave window",
+    "expected_business_decision": "Revoke assignment and assign relief worker",
+    "severity": "HIGH",
+    "injection_method": "Assigned shift on approved leave calendar date",
+    "ground_truth_label": "ANOMALY_LEAVE_CONFLICT",
+    "is_anomaly": true
+  },
+  {
+    "anomaly_id": "ANOM-000003",
+    "issue_type": "MISSING_SKILL",
+    "entity_type": "SHIFT_ASSIGNMENT",
+    "record_id": "ASGN-ANOM-0004",
+    "expected_detection": "Assigned employee lacks required certification",
+    "expected_business_decision": "Reassign to certified personnel immediately",
+    "severity": "CRITICAL",
+    "injection_method": "Assigned employee to role without prerequisite skill certification",
+    "ground_truth_label": "ANOMALY_MISSING_SKILL",
+    "is_anomaly": true
+  },
+  {
+    "anomaly_id": "ANOM-000004",
+    "issue_type": "OVERTIME_EXCEEDED",
+    "entity_type": "EMPLOYEE",
+    "record_id": "EMP-000003",
+    "expected_detection": "Employee scheduled beyond maximum weekly overtime cap",
+    "expected_business_decision": "Unschedule excess shifts to comply with labor regulations",
+    "severity": "HIGH",
+    "injection_method": "Assigned 4 additional shifts pushing weekly hours to 56h (> 25h cap)",
+    "ground_truth_label": "ANOMALY_OVERTIME_EXCEEDED",
+    "is_anomaly": true
+  },
+  {
+    "anomaly_id": "ANOM-000005",
+    "issue_type": "UNAPPROVED_SWAP",
+    "entity_type": "SWAP_REQUEST",
+    "record_id": "SWP-2026-000999",
+    "expected_detection": "Shift swap applied without required manager approval",
+    "expected_business_decision": "Revert swap execution and notify compliance",
+    "severity": "HIGH",
+    "injection_method": "Applied swap directly bypassing manager authorization",
+    "ground_truth_label": "ANOMALY_UNAPPROVED_SWAP",
+    "is_anomaly": true
+  }
+]
